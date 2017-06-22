@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_art"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="文章"></Button>
+
+            <Button
+                android:id="@+id/btn_authors_get"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查看"></Button>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_ins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新增"></Button>
+
+            <Button
+                android:id="@+id/btn_pat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改"></Button>
+
+            <Button
+                android:id="@+id/btn_del"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="刪除"></Button>
+
+        </TableRow>
+</TableLayout>
